@@ -120,7 +120,7 @@
     "dnsServerPrivateIp": "10.0.0.4",
     "subnet-id": "[concat(resourceId('Microsoft.Network/virtualNetworks', variables('adVnetName')),'/subnets/', variables('adSubnetName'))]",
     "publicIpRef": "publicIp",
-    "assetLocation": "https://raw.githubusercontent.com/Azure/azure-QuickStart-Templates/master/rds-deployment/",
+    "assetLocation": "https://raw.githubusercontent.com/sumitdubeyit/RDS_Lab/main/",
     "nsgName": "RDSNsg",
     "nsgID": "[resourceId('Microsoft.Network/networkSecurityGroups',variables('nsgName'))]",
     "subnets": [
